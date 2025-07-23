@@ -55,7 +55,7 @@ int main()
     scanf(" %s", codigo_da_carta2);
 
     printf("Qual o nome da cidade:\n");
-    scanf(" %s", nome_da_cidade2);
+    scanf(" %19[^\n]", nome_da_cidade2);
 
     printf("Qual a populacao da sua cidade:\n");
     scanf(" %d", &populacao2);
