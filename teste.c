@@ -23,7 +23,7 @@ int main()
     scanf("%s", codigo_da_carta1);
 
     printf("Qual o nome da cidade:\n");
-    scanf("%s", nome_da_cidade1);
+    scanf(" %19[^\n]", nome_da_cidade1);
 
     printf("Qual a populacao da sua cidade:\n");
     scanf(" %d", &populacao1);
