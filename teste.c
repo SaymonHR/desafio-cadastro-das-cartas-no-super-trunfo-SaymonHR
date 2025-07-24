@@ -23,16 +23,16 @@ int main()
     scanf("%s", codigo_da_carta1);
 
     printf("Qual o nome da cidade:\n");
-    scanf(" %19[^\n]", nome_da_cidade1);
+    scanf("%s", nome_da_cidade1);
 
     printf("Qual a populacao da sua cidade:\n");
     scanf(" %d", &populacao1);
 
     printf("qual o tamanho da area da sua cidade:\n");
-    scanf(" %f", &area1);
+    scanf(" %2f", &area1);
 
     printf("qual o pib da sua cidade:\n");
-    scanf(" %f", &pib1);
+    scanf(" %2f", &pib1);
 
     printf("qual a quantidade de pontos turisticos da sua cidade:\n");
     scanf(" %d", &numero_de_pontos_turisticos1);
@@ -61,10 +61,10 @@ int main()
     scanf(" %d", &populacao2);
 
     printf("qual o tamanho da area da sua cidade:\n");
-    scanf(" %f", &area2);
+    scanf(" %2f", &area2);
 
     printf("qual o pib da sua cidade:\n");
-    scanf(" %f", &pib2);
+    scanf(" %2f", &pib2);
 
     printf("qual a quantidade pontos turisticos da sua cidade:\n");
     scanf(" %d", &numero_de_pontos_turisticos2);
