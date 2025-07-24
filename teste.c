@@ -29,10 +29,10 @@ int main()
     scanf(" %d", &populacao1);
 
     printf("qual o tamanho da area da sua cidade:\n");
-    scanf(" %2f", &area1);
+    scanf(" %f", &area1);
 
     printf("qual o pib da sua cidade:\n");
-    scanf(" %2f", &pib1);
+    scanf(" %f", &pib1);
 
     printf("qual a quantidade de pontos turisticos da sua cidade:\n");
     scanf(" %d", &numero_de_pontos_turisticos1);
@@ -61,10 +61,10 @@ int main()
     scanf(" %d", &populacao2);
 
     printf("qual o tamanho da area da sua cidade:\n");
-    scanf(" %2f", &area2);
+    scanf(" %f", &area2);
 
     printf("qual o pib da sua cidade:\n");
-    scanf(" %2f", &pib2);
+    scanf(" %f", &pib2);
 
     printf("qual a quantidade pontos turisticos da sua cidade:\n");
     scanf(" %d", &numero_de_pontos_turisticos2);
